@@ -115,7 +115,6 @@ export const TabButton = styled(ButtonOrLink, { shouldForwardProp: isPropValid }
     active
       ? {
           color: textColor || theme.barSelectedColor,
-          borderBottomColor: theme.barSelectedColor,
         }
       : {
           color: textColor || theme.barTextColor,
